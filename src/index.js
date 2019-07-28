@@ -95,6 +95,7 @@ class App extends React.Component {
         }, () => {
             if(this.state.check == this.state.current_q){
                 this.setState({ok: true})
+                console.log(Date())
             }
         })
     }
